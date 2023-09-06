@@ -1,0 +1,10 @@
+.bi-cart-check {
+    width: 25px;
+    height: 25px;
+    color: blue;
+}
+.cartWidget {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <h1>Proyecto: Tienda de servicios</h1>
       <Contador />
-
+      
     </main>
   )
 }

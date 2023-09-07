@@ -1,17 +1,17 @@
 import './styles.css';
 import { BsBagPlus } from "react-icons/bs";
+import { Badge } from '@mui/material';
 
 const CartWidget = ({carrito}) => {
 
-    
-
     return (
         <div className='cartWidget'>
-            <div> 
-                <BsBagPlus />
+            
+            <div>
+                <Badge badgeContent={carrito} color="primary">
+                    <BsBagPlus />
+                </Badge>
             </div>
-           
-            <div>{carrito}</div>
         </div>
     );
 };

@@ -5,7 +5,7 @@ import './styles.css'
 const Navbar = () => {
 
     const Logo = ['LOGO']
-    const carrito = 12
+    const carrito = 3
 
     return (
         <div className="navbar">

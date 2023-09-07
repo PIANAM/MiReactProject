@@ -17,3 +17,6 @@ function App() {
 }
 
 export default App
+
+
+// aplis publicas https://github.com/public-apis/public-apis

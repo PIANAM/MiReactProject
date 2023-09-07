@@ -3,16 +3,18 @@ import ItemListContainer from '../ItemListContainer/ItemListContainer'
 import './styles.css'
 
 const Navbar = () => {
+
+    const Logo = ['LOGO']
+    const carrito = 12
+
     return (
         <div className="navbar">
+            
             <div>
-                MiLogo
+                <ItemListContainer Logo={Logo}/>
             </div>
             <div>
-                <ItemListContainer />
-            </div>
-            <div>
-                <CartWidget />
+                <CartWidget carrito={carrito}/>
             </div>
         </div>
     )

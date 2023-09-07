@@ -1,12 +1,16 @@
 import './styles.css'
 
-const ItemListContainer = () => {
+const ItemListContainer = ({Logo}) => {
 
     return (
         <div className='listItem'> 
-           <p >item1</p>
-           <p >item2</p>
+            <div className='margenItem'>{Logo}</div> 
+            <div className='margenItem'><a href="http://#">Servicios</a></div> 
+            <div className='margenItem'><a href="http://#">Calculadora</a></div> 
+            <div className='margenItem'><a href="http://#">Nosotros</a></div> 
+            <div className='margenItem'><a href="http://#">Contacto</a></div> 
         </div>
+        
     );
 };
 

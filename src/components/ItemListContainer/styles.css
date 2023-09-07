@@ -1,3 +1,7 @@
 .listItem {
     display: flex;
 }
+
+.margenItem {
+    padding: 15px;
+}

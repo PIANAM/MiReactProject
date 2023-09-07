@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Button } from '@mui/material';
 
 
 const Contador = () => {
@@ -10,7 +11,7 @@ const Contador = () => {
         <div> 
             {count} 
             <hr/>
-            <button onClick={handCount}>Sumar</button>
+            <Button variant="outlined" onClick={handCount}>Sumar</Button >
         </div>
     );
 };
